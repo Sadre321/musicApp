@@ -10,6 +10,10 @@ body{
     height: 100vh;
 }
 
+.text-center{
+    width: 100%;
+}
+
 .contianer{
     padding: 1ren;
 }
@@ -28,10 +32,10 @@ body{
 }
 
 .main{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
     color: #fff;
 }
 
@@ -39,13 +43,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .music-img img{
-    width: 65%;
+    width: 350px;
     padding: 1rem;
     border: 1px solid #fff;
 
+}
+
+.time{
+    width: 500px;
+    margin: auto;
 }
 
 .control{
@@ -68,5 +78,4 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-     
 }
